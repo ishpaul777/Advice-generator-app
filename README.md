@@ -4,7 +4,7 @@
 > This is a solution to the Advice generator app challenge on Frontend Mentor. I took it one step further and add functionality of generation random Dad joke.Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Screenshots 📸
-![](./)
+![](./images/Screenshot.png)
 
 ## Built With
 
@@ -14,15 +14,19 @@
 - [Advice Slip JSON API](https://api.adviceslip.com/)
 - [Dad joke Api](https://icanhazdadjoke.com/api)
 
+The designs were optimized to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
 ## Live Demo
 
 A live version of the working website can be seen [here](https://ishpaul777.github.io/Advice-generator-app/)
 
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
-
-- You can download the repo in your local enviornment by clicking (here)[https://github.com/ishpaul777/Advice-generator-app/archive/refs/heads/main.zip].
+To get a local copy up and You can download the repo in your local enviornment by clicking [here](https://github.com/ishpaul777/Advice-generator-app/archive/refs/heads/main.zip).
 
 
 
