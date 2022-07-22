@@ -5,33 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <main id="advice-container">
+  <main>
+  <setion class="wrap-container">
     <div class="content">
       <h1>
-        ADVICE  #<span id="advice-num"></span> 
+       DAD ADVICE  #<span id="advice-num"></span> 
       </h1>
       <p id="advice"></p>
     </div>
     <img src="./images/pattern-divider-desktop.svg" class="divider-desktop" alt="pattern-divider-desktop">
     <img src="./images/pattern-divider-mobile.svg" class="divider-mobile" alt="pattern-divider-mobile">
-    <a href="" class="dice-container" >
+    <a href="" class="advice-dice dice-container" >
       <img src="./images/icon-dice.svg"alt="roll-dice">
     </a>
-  </main>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+  </setion>
+  <section class="wrap-container">
+    <div class="content">
+    <h1 class="joke-heading">
+      DAD JOKE  #<span id="joke-num"></span> 
+    </h1>
+    <p id="joke"></p>
+  </div>
+  <img src="./images/pattern-divider-desktop.svg" class="divider-desktop" alt="pattern-divider-desktop">
+  <img src="./images/pattern-divider-mobile.svg" class="divider-mobile" alt="pattern-divider-mobile">
+  <a href="" class="joke-dice dice-container" >
+    <img src="./images/icon-dice.svg"alt="roll-dice">
+  </a>
+  </section>
+</main>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
+  Made with <i class="bi bi-balloon-heart-fill"></i> by <a href="#">Ishpaul Singh</a>.
+</footer>
+  
+  
   <script src="app.js"></script>
 </body>
 </html>
