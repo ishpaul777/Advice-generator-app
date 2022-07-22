@@ -14,6 +14,12 @@
 - [Advice Slip JSON API](https://api.adviceslip.com/)
 - [Dad joke Api](https://icanhazdadjoke.com/api)
 
+The designs were optimized to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
 ## Live Demo
 
 A live version of the working website can be seen [here](https://ishpaul777.github.io/Advice-generator-app/)
