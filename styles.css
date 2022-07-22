@@ -83,8 +83,6 @@ h1,
 }
 
 .dice-container {
-  position: absolute;
-  bottom: -22px;
   background: hsl(150, 100%, 66%);
   border-radius: 50%;
   padding: 13px;
@@ -92,6 +90,8 @@ h1,
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: -22px;
 }
 
 .dice-container:hover {
@@ -101,6 +101,7 @@ h1,
 .joke-dice {
   background-color: hsl(205, 100%, 66%);
 }
+
 
 .joke-dice:hover {
   box-shadow: -1px 0px 24px -1px rgba(82, 183, 255, 1);
@@ -117,4 +118,27 @@ h1,
 .attribution a {
   color: hsl(150, 100%, 66%);
   text-decoration: none;
+}
+
+@media (max-width:820px) {
+ main {
+   flex-direction: column;
+   margin-top: 50px;
+ }
+  .wrap-container {
+    width: 80vw;
+    min-height: fit-content;
+  }
+  .advice-dice {
+    position: absolute;
+    bottom: 300px;
+  }
+
+  .dice-container:hover,
+  .joke-dice:hover {
+    box-shadow: none;
+  }
+  .attribution {
+    display: none;
+  }
 }
