@@ -4,7 +4,7 @@
 > This is a solution to the Advice generator app challenge on Frontend Mentor. I took it one step further and add functionality of generation random Dad joke.Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Screenshots 📸
-![](./images/Screenshot.jpg)
+![](./images/Screenshot.png)
 
 ## Built With
 
